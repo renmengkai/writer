@@ -18,59 +18,68 @@
         <script src="js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js"></script>
     </head>
     <body >
-    <!-- if the user has javascript disabled they can still use the menu -->
-    <noscript>
-        <div class="no-js-menu">
-            <ul>
-                <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-                <li><i class="fa fa-user"></i><a href="author.html">John Smith</a></li>
-                <li><i class="fa fa-anchor"></i><a href="page.html">About</a></li>
-                <li><i class="fa fa-star"></i><a href="favorites.html">Favorites</a></li>
-                <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
-                <li><i class="fa fa-file"></i><a href="post.html">Post Page</a></li>
-                <li><i class="fa fa-file"></i><a href="post-sidebar.html">Post with Sidebar</a></li>
-                <li><i class="fa fa-home"></i><a href="alt-home.html">Alternate Home</a></li>
-                <li><i class="fa fa-image"></i><a href="category.html">Category Page</a></li>
-            </ul>
-        </div>
-    </noscript>
-    <!-- end no script -->
-    <main class="container left-container">
-        <div class="row">
+      <!-- if the user has javascript disabled they can still use the menu -->
+      <noscript>
+          <div class="no-js-menu">
+              <ul>
+                  <li><i class="fa fa-home"></i><a href="index.html">首页</a></li>
+                  <li><i class="fa fa-user"></i><a href="author.html">Mr.Remark</a></li>
+                  <li><i class="fa fa-anchor"></i><a href="page.html">关于博客</a></li>
+                  <li><i class="fa fa-star"></i><a href="favorites.html">博主推荐</a></li>
+                  <li><i class="fa fa-paper-plane"></i><a href="contact.html">联系博主</a></li>
+                  <li><i class="fa fa-file"></i><a href="post.html">最新文贴</a></li>
+                  <li><i class="fa fa-file"></i><a href="post-sidebar.html">博主原创帖</a></li>
+                  <li><i class="fa fa-home"></i><a href="alt-home.html">全部文贴</a></li>
+                  <li><i class="fa fa-image"></i><a href="category.html">你有故事，我有酒</a></li>
+              </ul>
+          </div>
+      </noscript>
+      <!-- end no script -->
 
-            <div id="menu-target">
-                <ul>
-                    <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-                    <li><i class="fa fa-user"></i><a href="author.html">John Smith</a></li>
-                    <li><i class="fa fa-anchor"></i><a href="page.html">About</a></li>
-                    <li><i class="fa fa-star"></i><a href="favorites.html">Favorites</a></li>
-                    <li><i class="fa fa-paper-plane"></i><a href="contact.html">Contact</a></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><i class="fa fa-file"></i><a href="post.html">Post Page</a></li>
-                    <li><i class="fa fa-file"></i><a href="post-sidebar.html">Post with Sidebar</a></li>
-                    <li><i class="fa fa-home"></i><a href="alt-home.html">Alternate Home</a></li>
-                    <li><i class="fa fa-image"></i><a href="category.html">Category Page</a></li>
-                </ul>
-            </div>
+      <main class="container left-container">
+          <div class="row">
 
-            <section class="sidebar category-sidebar col-lg-5 col-12 mr-auto" style="background-image: url(img/default-category-sidebar.jpg);">
+              <div id="menu-target">
+                  <ul>
+                      <li><i class="fa fa-home"></i><a href="index.html">首页</a></li>
+                      <li><i class="fa fa-user"></i><a href="author.html">Mr.Remark</a></li>
+                      <li><i class="fa fa-anchor"></i><a href="page.html">关于博客</a></li>
+                      <li><i class="fa fa-star"></i><a href="favorites.html">博主推荐</a></li>
+                      <li><i class="fa fa-paper-plane"></i><a href="contact.html">联系博主</a></li>
+                  </ul>
+                  <hr>
+                  <ul>
+                      <li><i class="fa fa-file"></i><a href="post.html">最新文贴</a></li>
+                      <li><i class="fa fa-file"></i><a href="post-sidebar.html">博主原创帖</a></li>
 
-                <span class="menu-trigger animated fadeInDown">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </span>
+                      <li><i class="fa fa-home"></i><a href="alt-home.html">全部文贴</a></li>
+                      <li><i class="fa fa-image"></i><a href="category.html">你有故事，我有酒</a></li>
+                  </ul>
+              </div>
 
-                <div class="site-info">
-                    <div class="primary-info">
-                    <h1>Storytime</h1>
-                        <p>A place to share stories, welcome to the campfire.</p>
-                    </div>
-                </div>
+              <section class="sidebar col-lg-5 col-12" style="background-image: url(img/default-sidebar.jpg">
 
-            </section>
+                  <span class="menu-trigger animated fadeInDown">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                  </span>
+
+                  <div class="site-info">
+                      <div class="primary-info">
+                          <h1>个人博客</h1>
+                          <p>一个记录个人工作学习中遇到的问题，以及时下热点的地方 <a href="post.html">查看功能</a> </p>
+
+                          <p>流动的知识更有价值</p>
+                      </div>
+                      <div class="secondary-info">
+                          <p>
+                              <a class="btn btn-primary" href="#"><i class="fa fa-user-plus"></i>加入我们</a>
+                          </p>
+                      </div>
+                  </div>
+              </section><!-- end sidebar -->
+
 
             <section class="col-lg-7 col-12 ml-auto main-content">
 
